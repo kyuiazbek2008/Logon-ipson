@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: DM Sans;
+}
+#header {
+  margin: 30px;
+}
+h1 h2 h3 h4 h5 h6 {
+  color: #696871;
+}
+p {
+  color: #696871;
+}
+button:hover{
+  transform: scale(1.1);
+}
+.conteiner {
+  width: 85%;
+  margin-inline: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  color: #696871;
+  display: flex;
+  gap: 60px;
+  font-weight: 700;
+  font-size: 15px;
+}
+header button {
+  border: none;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  color: #ffffff;
+  background: #ff7143;
+  font-weight: 700;
+  font-size: 15px;
+
+  border-radius: 10px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main-text h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  width: 300px;
+}
+.main-text p {
+  width: 350px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+.main-text button {
+  width: 180px;
+  height: 45px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  background: #5454d4;
+  cursor: pointer;
+  color: #ffffff;
+}
+.main-btnc {
+  display: flex;
+  gap: 40px;
+}
+.btn-arrow {
+  height: 50px;
+  width: 50px;
+  border: 1% solid #e7e7e7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-arrow .ion-icon {
+  font-size: 30px;
+}
+.main img {
+  max-width: 500px;
+  width: 100%;
+}
+.main-long {
+  padding-block: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.center {
+  width: 200px;
+  display: flex;
+  gap: 600px;
+  align-items: center;
+}
+.ceter-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ceter-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+
+  width: 400px;
+}
+.ceter-text p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 390px;
+  line-height: 30px;
+}
+.ceter-text a {
+  border-radius: none;
+  width: 100px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.center img {
+  max-width: 350px;
+  width: 100%;
+
+  height: 473px;
+  display: flex;
+}
+
+.doctor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.doctor-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.doctor-text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  width: 400px;
+}
+.doctor-text p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 350px;
+}
+.doctor-text a {
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: none;
+  width: 100px;
+}
+.doctor img {
+  max-width: 300px;
+  width: 100%;
+}
+
+#fotograf {
+  padding: 100px 0;
+}
+
+.fotodraf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block h1 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #19191b;
+}
+.block p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 340px;
+  color: #696871;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+.end-text{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.end-oil{
+  display: flex;
+  align-items: center;
+}
+
+.end-text h1{
+  width: 400px;
+font-weight: 700;
+font-size: 40px;
+line-height: 70px;
+}
+.end-text button{
+  width: 160PX;
+  height: 55px;
+  background: #5454D4;
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border: solid;
+}
+.end-text p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ width: 160px;
+  height: 55px; 
+  font-weight: 700;
+  font-size: 16px;
+  color: #19191b;
+  background: #F7F7FB;
+}
+.end-plan{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.end-plan{
+  padding-block: 100px;
+}
+
+
+
+.end-plan  .end-box{
+width: 280px;
+background: #F8F8F8;
+padding: 40px 30px;
+display: flex;
+flex-direction: column;
+align-items: center ;
+gap: 30px;
+}
+.end-plan .end-box .end-too{
+line-height: 40px;
+
+}
+.end-plan .end-box:hover{
+  background: #FF7143;
+  transform: scale(1.1);
+  h1{
+    color: #FFFFFF;
+  }
+  p{
+  color: #FFFFFFB2;
+  }
+  button{
+    background: #9F3919 ;
+    color: #FFFFFF;
+  }
+}
+.end-plan .end-box button{
+  background: #F7F7FB;
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  color: #5454D4;
+
+ }
+ .end-plan .end-box h1{
+font-size: 40px;
+font-weight: 700;
+ 
+}
+.end-plan .end-box p{
+   font-weight: 400;
+  font-size: 16px;
+  color: #696871;
+
+}
